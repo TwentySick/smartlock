@@ -128,7 +128,7 @@ void loop(){
           liquid_crystal_display.setCursor(0, 1);
           liquid_crystal_display.print("1 minute");
           Serial.write('5');
-          delay(6000);
+          delay(60000);
           Serial.write('6');
           liquid_crystal_display.clear();
           liquid_crystal_display.print("Enter Password");
